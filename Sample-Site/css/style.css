@@ -37,6 +37,18 @@
 	background-color: #fff;
 }
 
+/* Challenge 1 Add Ons */
+
+.makeRed {
+	background-color: red;
+}
+
+.makeBorder {
+	border: 2px;
+}
+
+/* End of Challenge 1 Add Ons */
+
 
 /*************************
 Navigation
