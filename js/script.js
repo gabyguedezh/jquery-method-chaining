@@ -57,7 +57,23 @@ $(document).ready(function() {
 		$("#sixth_button").removeClass("border").addClass("makeRed");
 	});	
 	
+	
 	$("#first_button").click(function(){
 		$("#first_para").slideToggle("slow");
 	});
+	$("#second_button").click(function(){
+		$("#second_para").slideToggle("slow");
+	});
+	$("#third_button").click(function(){
+		$("#third_para").slideToggle("slow");
+	});
+	$("#fourth_button").click(function(){
+		$("#fourth_para").slideToggle("slow");
+	});
+	$("#fifth_button").click(function(){
+		$("#fifth_para").slideToggle("slow");
+	});
+	$("#sixth_button").click(function(){
+		$("#sixth_para").slideToggle("slow");
+	});	
 }); 
