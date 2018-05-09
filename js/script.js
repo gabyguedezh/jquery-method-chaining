@@ -56,4 +56,8 @@ $(document).ready(function() {
 	$("#sixth_button").mouseleave(function(){
 		$("#sixth_button").removeClass("border").addClass("makeRed");
 	});	
+	
+	$("#first_button").click(function(){
+		$("#first_para").slideToggle("slow");
+	});
 }); 
